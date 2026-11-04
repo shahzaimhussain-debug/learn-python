@@ -40,6 +40,7 @@ print(prices)
 
 """
 ##example 5
+"""
 stock = 120
 before = id(stock)
 stock += 30
@@ -49,3 +50,9 @@ prices = [850, 1200]
 before = id(prices)
 prices.append(400)
 print(id(prices) == before)
+"""
+###example 6
+
+location = [24.86, 67.01]
+print(location[0])
+location[0] = 31.52
